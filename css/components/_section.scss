@@ -1,0 +1,126 @@
+/* ---------- Banner ---------- */
+#cs_banner {
+    position: relative;
+    .item {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        .content {
+            max-width: 600px;
+            margin-left: auto;
+            padding: 100px 50px;
+            color:$clr_white;
+        }
+        h1 {
+            text-transform: uppercase;
+            margin-bottom:0px;
+            font-weight:900;
+            font-size:5em;
+            line-height:1;
+            span {
+                font-size:0.6em;
+                color:$clr_red;
+                display: block;
+                font-weight:600;
+            }
+        }
+        p {
+            font-size:1.2em;
+            margin:30px 0px;
+        }
+    }
+    .owl-dots {
+        margin-top: 0px;
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        .owl-dot {
+            display: inline-block;
+            cursor: pointer;
+            span {
+                margin: 0px 10px;
+                width: 20px;
+                height: 5px;
+                background-color:$clr_white;
+            }
+            &.active {
+                span {
+                    background-color:$clr_red;
+                }
+            }
+        }
+    }
+    .grid_right {
+        height:100%;
+        padding:50px;
+        background-image:url(../images/pattern.png);
+        color:$clr_white;
+        h3 {
+            text-transform: capitalize;
+            font-weight:600;
+            margin-bottom:5px;
+        }
+        .cs_box {
+            padding: 10px 20px;
+            background-color: #161616;
+            margin-bottom: 30px;
+            font-size: 2em;
+            font-weight: 400;
+            line-height: 1;
+            text-align: center;
+        }
+        .btn_main {
+            font-size:1.5em;
+        }
+    }
+}
+/* ---------- News ---------- */
+#cs_news {
+    padding:50px 0px;
+    background-color:$clr_16;
+    .gridi {
+        border:3px solid rgba($clr_white, 0.25);
+        background-image:url(../images/pattern.png);
+        .img_sec {
+            img {
+                width:100%;
+            }
+        }
+        .details_sec {
+            padding:15px;
+            color:$clr_white;
+            h3 {
+                font-weight:600;
+                margin-bottom:15px;
+                padding-bottom:15px;
+                border-bottom:1px solid rgba($clr_white, 0.25);
+                text-transform: uppercase;
+            }
+            p {}
+            .btn_main {
+                background-position: 65% 0;
+            }
+        }
+    }
+}
+/* ---------- About ---------- */
+#cs_about {
+    padding:50px 0px;
+    background-image:url(../images/pattern.png);
+    img {
+        width:100%;
+    }
+    h2 {
+        text-transform: uppercase;
+        font-weight:700;
+        color:$clr_white;
+        margin-bottom:0;
+    }
+    p {
+        color:$clr_white;
+        margin:30px 0px;
+    }
+    .btn_set {}
+}

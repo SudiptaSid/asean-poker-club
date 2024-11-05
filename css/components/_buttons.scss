@@ -1,0 +1,44 @@
+/* ---------- Buttons ---------- */
+.btn {
+    padding: 10px 20px;
+    border-radius:0;
+    border:none;
+    border-bottom: 5px solid rgba($clr_black, 0.3);
+    background: url(../images/pattern_btn.png) 50% 0 no-repeat;
+    font-size:1em;
+    font-weight: 600;
+    line-height:1.4;
+    letter-spacing:1px;
+    background-color:$clr_red;
+    color:$clr_white;
+    box-shadow:none;
+    outline:none;
+    text-transform: uppercase;
+    &:hover, &:focus {
+        border:none;
+        border-bottom: 5px solid rgba($clr_black, 0.3);
+        background-color: $clr_45;
+        box-shadow:none;
+        outline:none;
+        color:$clr_white;
+    }
+}
+.btn_login {
+    background-color:$clr_red;
+    background-position-x:64%;
+    color:$clr_white;
+    &:hover, &:focus {
+        background-color: $clr_45;
+        color:$clr_white;
+    }
+}
+.btn_main {
+    background-position-x:65%;
+    &:hover, &:focus {}
+}
+.btn_black {
+    background-color:$clr_45;
+    &:hover, &:focus {
+        background-color:$clr_red;
+    }
+}

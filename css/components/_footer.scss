@@ -1,0 +1,52 @@
+/* ---------- Footer ---------- */
+footer {
+    padding:50px 0px;
+    background-color:$clr_16;
+    h5 {
+        text-transform: uppercase;
+        font-weight:600;
+        color:$clr_red;
+    }
+    .f_li {
+        padding-left:20px;
+        li {
+            margin-bottom:10px;
+            list-style-image:url(../images/f_list.png);
+            a {
+                color:$clr_white;
+                text-transform: capitalize;
+                &:hover {
+                    color:$clr_red;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+/* ---------- Copyright ---------- */
+#cs_copyright {
+    text-align: center;
+    padding:20px 0px;
+    color:$clr_white;
+    background-image:url(../images/pattern.png);
+    background-color:$clr_16;
+    text-transform: capitalize;
+    .social {
+        li {
+            display: inline-block;
+            a {
+                color:$clr_white;
+                display: inline-block;
+                padding:0px 10px;
+                font-size:1.3em;
+                &:hover {
+                    color:$clr_red;
+                }
+            }
+        }
+    }
+    p {
+        margin-bottom:0;
+        margin-top:10px;
+    }
+}

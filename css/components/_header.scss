@@ -1,0 +1,46 @@
+/* ---------- Middlebar ---------- */
+#cs_middlebar {
+    background-image:url(../images/pattern.png);
+    .logo {
+        text-align: center;
+        padding:15px 0;
+        a {
+            display: inline-block;
+            line-height:0;
+            img {
+                height:70px;
+            }
+        }
+    }
+}
+/* ---------- Navbar ---------- */
+#cs_menu {
+    background-color:$clr_16;
+    .navbar {
+        padding:0;
+    }
+    .nav-item {
+        background-image:url(../images/menu_border.png);
+        background-repeat:no-repeat;
+        .nav-link {
+            padding:15px;
+            color:$clr_white;
+            text-transform: uppercase;
+            letter-spacing:1px;
+            &:hover {
+                color:$clr_red;
+            }
+        }
+        &:first-child {
+            background-image:none;
+        }
+        &.active {
+            .nav-link {
+                color:$clr_red;
+            }
+        }
+    }
+    .btn {
+        padding:15px 25px;
+    }
+}
